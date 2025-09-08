@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-expensetracker-dev-170a8-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176766376525:role/amplify-expensetracker-dev-170a8-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176766376525:role/amplify-expensetracker-dev-170a8-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-expensetracker-dev-170a8-deployment",
+      "UnauthRoleName": "amplify-expensetracker-dev-170a8-unauthRole",
+      "StackName": "amplify-expensetracker-dev-170a8",
+      "StackId": "arn:aws:cloudformation:us-east-1:176766376525:stack/amplify-expensetracker-dev-170a8/d5f7aa90-8c91-11f0-a54c-0affdf7917d3",
+      "AmplifyAppId": "d1j2gxjm3tawos",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-expensetracker-dev-170a8-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "expensetracker61fcd868": {}
+      },
+      "function": {
+        "expensetracker61fcd868DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-expensetracker-dev-170a8-deployment",
+          "s3Key": "amplify-builds/expensetracker61fcd868DefineAuthChallenge-46493669385543454b4e-build.zip"
+        },
+        "expensetracker61fcd868CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-expensetracker-dev-170a8-deployment",
+          "s3Key": "amplify-builds/expensetracker61fcd868CreateAuthChallenge-7a684b495758642b2f34-build.zip"
+        },
+        "expensetracker61fcd868VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "76nn80",
+          "deploymentBucketName": "amplify-expensetracker-dev-170a8-deployment",
+          "s3Key": "amplify-builds/expensetracker61fcd868VerifyAuthChallengeResponse-51334570682b6f6f6f30-build.zip"
+        }
+      },
+      "api": {
+        "expensetracker": {}
+      }
+    }
+  }
+}
